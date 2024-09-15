@@ -1,0 +1,106 @@
+ .h-1{height: 540px;}.h-2{height: 400px;}.b{border: 3px solid rebeccapurple;} .w-1{width: 155px;} .w-2{ width: 300px;}  
+ .br {border: 4px solid red;}
+
+
+
+ .logo{
+   white-space: nowrap;
+   /* flex-wrap: nowrap; */
+   overflow: hidden;
+   /* padding: 20px 0; */
+ }
+ .logo-slide{
+   animation: 28s slide infinite linear;
+   display: inline-flex;
+  
+ }
+.logo-slide h1{
+  margin: 0 20px;
+  /* border: 2px solid blue; */
+  width: 240px;
+  height: 80px;
+
+}
+
+
+.logo-2{
+  white-space: nowrap;
+  /* flex-wrap: nowrap; */
+  overflow: hidden;
+  /* padding: 20px 0; */
+}
+.logo-slide-2{
+  animation: 29s slide-2 infinite linear;
+  display: inline-flex;
+ 
+}
+.logo-slide-2 h1{
+ margin: 0 20px;
+ /* border: 2px solid blue; */
+ width: 240px;
+ height: 80px;
+
+}
+
+.main-second-design:hover .card{
+  
+  filter: blur(2px);
+}
+
+.main-second-design .card:HOVER{
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+@media only screen and (max-width: 800px) {
+  .section-6-first h1{
+    font-size: 33px!important;
+
+  }
+  .section-7-first h1{
+    font-size: 40px!important;
+
+  }
+}
+
+
+ @keyframes slide {
+   from{
+     transform: translateX(0);
+    
+   }
+   to{
+    transform: translateX(-100%);
+   }
+  
+   
+   
+ }
+
+ @keyframes slide-2 {
+  from{
+    transform: translateX(-100%);
+   
+  }
+  to{
+   transform: translateX(0);
+  }
+ 
+  
+  
+}
+
+.section-8-container:hover .card-8{
+  
+  filter: blur(2px);
+}
+
+.section-8-container .card-8:HOVER{
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1.1);
+  transition: 0.9s;
+}
+
